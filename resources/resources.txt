@@ -1,0 +1,8 @@
+# name = value
+playerHealth=10
+enemyHealth=10
+maxMana=10
+maxCardsOnField=7
+maxCardsInHand=6
+startingCards=3
+enemyStartingMana=1

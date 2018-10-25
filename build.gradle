@@ -1,0 +1,19 @@
+plugins{
+id "java"
+id "application"
+}
+version = '1.0'
+mainClassName="engine.Globals"
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Creatures',
+                   'Implementation-Version': version,
+                   'Class-Path': configurations.compile.collect { it.getName()}.join(' '),
+                   'Main-Class': 'engine.Globals'
+    }
+}
+repositories {
+    mavenCentral()
+}
+dependencies {
+}

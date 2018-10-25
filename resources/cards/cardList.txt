@@ -1,0 +1,26 @@
+# setup- name (String) : taunt (T/F) : charge (C/F) : attack (int) : health (int) : cost (int)
+#
+ChoGath				:T:F:3:4:3
+Kassawin			:F:C:3:6:5
+Kayle				:T:F:5:6:6
+Knight				:T:F:4:5:4
+Annie In Wonderland	:F:F:4:1:2
+Blood Moon Ninja	:F:F:1:1:0
+Bomb Technician		:F:C:1:1:1
+Bowser Attempt		:T:F:2:6:3
+Brolaf				:F:C:2:8:4
+#this was missing cost
+Dark Alchemist		:F:F:3:2:2
+Dark Mistress		:F:F:4:3:3
+Dino Gnar			:T:F:1:6:2
+Elder Dragon		:F:C:12:10:10
+Elderwood Overseer	:F:F:3:4:3
+Festive Maniac		:F:F:5:2:3
+Fire Duo			:T:C:2:4:3
+Ice Witch			:T:F:10:12:10
+Mafia Don			:T:F:4:8:5
+Project Ice			:F:C:12:1:6
+Scarecrow			:T:F:4:8:5
+Space Pirate		:F:F:6:6:5
+The Grim Reaper		:F:C:3:1:2
+The Undertaker		:F:F:2:3:2
