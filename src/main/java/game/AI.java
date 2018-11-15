@@ -63,17 +63,14 @@ public class AI extends Player {
         boolean hitFace = !Globals.game.human.hasTaunt();
         List<Card> hitable = new ArrayList<>();
         for (Card c : cardsInPlay()) {
-
+            Globals.game.human.update();
             if (c.canAttack()) {
 
                 //update human cards on battlefield
-                Globals.game.human.update();
-
                 Globals.game.select(c);
-
                 //pause so player can follow action
                 try {
-                    Thread.sleep(1000);
+                    Thread.sleep(999);
                 } catch (InterruptedException ex) {
                 }
 
